@@ -1,0 +1,27 @@
+{
+  "name": "magnet-uri",
+  "version": "1.0.0",
+  "author": [{
+    "name": "WebTorrent, LLC",
+    "email": "feross@webtorrent.io",
+    "url": "https://webtorrent.io"
+  },{
+    "name": "Michael Rhodes",
+    "email": "spam@michaelrhod.es",
+    "url": "http://michaelrhod.es"
+  }],
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test/encode.js && node test/decode.js"
+  },
+  "dependencies": {
+    "base32": "github:michaelrhodes/base32#1.0.0",
+    "object": "github:michaelrhodes/object#1.2.0",
+    "u8a": "github:michaelrhodes/u8a#1.0.0"
+  },
+  "devDependencies": {
+    "benchmark": "~2.1.4",
+    "magnet-uri": "~5.1.7"
+  }
+}
